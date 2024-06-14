@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: 	#40E0D0;
+  background-image: url('https://example.com/path-to-your-japanese-themed-background.jpg'); /* Add a Japanese-themed background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent to blend with the background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-family: 'Noto Serif JP', serif; /* A more traditional Japanese serif font */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+button.addBtn {
+  width: 50%;
+  padding: 10px;
+  background-color: black ; /* Tomato color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+button.addBtn:hover {
+  background-color: wheat;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.checked {
+  background: #e0ffe0;
+  text-decoration: line-through;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+span.complete, span.close {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+span.complete {
+  color: green;
+}
+
+span.close {
+  color: red;
+}
